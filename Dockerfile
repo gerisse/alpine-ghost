@@ -1,6 +1,6 @@
-FROM zzrot/alpine-node:v4.4.2
+FROM Hypriot/rpi-node
 
-MAINTAINER ZZROT LLC <docker@zzrot.com>
+MAINTAINER
 
 #ENV VARIABLES
 ENV GHOST_SOURCE /usr/src/app
