@@ -1,10 +1,8 @@
-# Ghost on Alpine Linux
+# Ghost on Raspberry Pi
 
-[![](https://badge.imagelayers.io/zzrot/alpine-ghost:latest.svg)](https://imagelayers.io/?images=zzrot/alpine-ghost:latest 'Get your own badge on imagelayers.io') [![Build Status](https://travis-ci.org/ZZROTDesign/alpine-ghost.svg?branch=master)](https://travis-ci.org/ZZROTDesign/alpine-ghost) [![Docker Pulls](https://img.shields.io/docker/pulls/zzrot/alpine-ghost.svg?maxAge=2592000)](https://hub.docker.com/r/zzrot/alpine-ghost/)
+This is a [Docker](https://www.docker.com/) image for [Ghost](https://ghost.org). This image runs with a base of [Hypriot/rpi-node](https://hub.docker.com/r/hypriot/rpi-node/)
 
-This is a [Docker](https://www.docker.com/) image for [Ghost](https://ghost.org). This image runs with a base of [Alpine-Linux](http://www.alpinelinux.org/) making it extremely small, secure and fast.
-
-This image is also available on [Docker Hub](https://hub.docker.com/r/zzrot/alpine-ghost/).
+This image is also available on [Docker Hub](https://hub.docker.com/r/
 
 ## Usage
 We recommend using our images in conjunction with [Docker-Compose](https://docs.docker.com/compose/). This allows for easier creation of containers with the proper volumes and ports enabled.
@@ -71,38 +69,6 @@ This image has one volume that can be utilized. By connecting a folder with:
 You can not only keep your data persistent, but also upload a custom config.js file. In order to do this connect your volume like this:
 
      /your/contentfolder:/var/lib/ghost/
-
-
-## Contributing to Alpine-Ghost
-
-### Team members
-
-* [Sean Kilgarriff](https://github.com/Skilgarriff) sean@zzrot.com T: [@seankilgarriff](https://twitter.com/SeanKilgarriff)
-* [Killian Brackey](https://github.com/killianbrackey) killian@zzrot.com T: [@kmbrackey](https://twitter.com/kmbrackey)
-
-Don't hesitate to get in contact with either one of us with problems, questions, etc.
-
-
-### Adding new features
-
-* Fork it!
-* Create your feature branch: git checkout -b my-new-feature
-* Commit your changes: git commit -am 'Add some feature'
-* Push to the branch: git push origin my-new-feature
-* Submit a pull request :D
-
-
-Don’t get discouraged! We estimate that the response time from the
-maintainers is around: 24 hours.
-
-## Reporting Security Issues
-
-If you discover a security issue in this Docker image, please report it by sending an email to docker@zzrot.com
-
-This will allow us to assess the risk, and make a fix available before we add a bug report to the GitHub repository.
-
-Thanks for helping make this image safe for everyone!
-
 
 ## License
 
